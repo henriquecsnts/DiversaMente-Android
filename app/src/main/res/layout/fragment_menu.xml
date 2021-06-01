@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:background="@drawable/background_main">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/welcomeText"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Olá, usuário"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/playButtonMenu" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playButtonMenu"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/jogar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/glossaryButton"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/glossaryButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/gloss_rio"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/newsButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/not_cias"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/glossaryButton"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/aboutTheIdeaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_info_24"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/sobre_a_ideia"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/exitGame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_exit_24"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

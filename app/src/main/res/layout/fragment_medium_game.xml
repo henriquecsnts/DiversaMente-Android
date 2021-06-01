@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediumGameFragment"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@drawable/background_main">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mediumLevelTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DiversaMente"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:drawableEnd="@drawable/ic_replay_24"
+        android:layout_marginHorizontal="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mediumLevelSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Médio"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="8dp"
+        android:drawableStart="@drawable/ic_info_24"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line1column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line1column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line1column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line1column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line2column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line2column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line2column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line2column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line3column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line3column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line3column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line3column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line4column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line4column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line4column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line4column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line5column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line5column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line5column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line5column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mediumLevelLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line6column1Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line6column2Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line6column3Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/line6column4Medium"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_cards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

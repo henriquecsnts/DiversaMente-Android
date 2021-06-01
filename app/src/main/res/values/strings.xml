@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ioasys_Fase2</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="entrar">Entrar</string>
+    <string name="jogar">Jogar</string>
+    <string name="gloss_rio">Glossário</string>
+    <string name="not_cias">Notícias</string>
+    <string name="f_cil">Fácil</string>
+    <string name="m_dio">Médio</string>
+    <string name="dif_cil">Difícil</string>
+    <string name="sobre_a_ideia">Sobre a ideia</string>
+    <string name="description_1">O jogo surgiu de um desafio proposto pela Ioasys \nna segunda fase de seu Camp. A equipe tinha \ncomo tema a diversidade, devendo desenvolver \numa aplicação Web e Mobile em cima disso.</string>
+    <string name="description_2">Com o objetivo de contribuir com o \ncompartilhamento de informações básicas sobre \na diversidade de gênero, visando estimular o \ninteresse no assunto e diminuir o preconceito \nenraizado, decidimos que nossa solução seria \numa aplicação Mobile First voltada para \neducação da diversidade de gênero através de \num jogo de memória.</string>
+    <string name="description_3">Incentivando o ensino sobre a diversidade de \ngênero de forma leve e divertida.</string>
+    <string name="como_jogar">Como jogar</string>
+    <string name="parab_ns">Parabéns</string>
+    <string name="editar_mensagem">Editar mensagem</string>
+    <string name="diversamente">DiversaMente</string>
+
+
+</resources>
