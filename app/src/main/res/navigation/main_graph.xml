@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.ioasys_fase2.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.ioasys_fase2.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_selectLevelFragment"
+            app:destination="@id/selectLevelFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_aboutTheIdeaFragment"
+            app:destination="@id/aboutTheIdeaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_glossaryFragment"
+            app:destination="@id/glossaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectLevelFragment"
+        android:name="com.example.ioasys_fase2.SelectLevelFragment"
+        android:label="fragment_select_level"
+        tools:layout="@layout/fragment_select_level" >
+        <action
+            android:id="@+id/action_selectLevelFragment_to_easyGameFragment"
+            app:destination="@id/easyGameFragment" />
+        <action
+            android:id="@+id/action_selectLevelFragment_to_mediumGameFragment"
+            app:destination="@id/mediumGameFragment" />
+        <action
+            android:id="@+id/action_selectLevelFragment_to_hardGameFragment"
+            app:destination="@id/hardGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutTheIdeaFragment"
+        android:name="com.example.ioasys_fase2.AboutTheIdeaFragment"
+        android:label="fragment_about_the_idea"
+        tools:layout="@layout/fragment_about_the_idea" >
+        <action
+            android:id="@+id/action_aboutTheIdeaFragment_to_selectLevelFragment"
+            app:destination="@id/selectLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/easyGameFragment"
+        android:name="com.example.ioasys_fase2.EasyGameFragment"
+        android:label="fragment_easy_game"
+        tools:layout="@layout/fragment_easy_game" >
+        <action
+            android:id="@+id/action_easyGameFragment_to_selectLevelFragment"
+            app:destination="@id/selectLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mediumGameFragment"
+        android:name="com.example.ioasys_fase2.MediumGameFragment"
+        android:label="fragment_medium_game"
+        tools:layout="@layout/fragment_medium_game" >
+        <action
+            android:id="@+id/action_mediumGameFragment_to_selectLevelFragment"
+            app:destination="@id/selectLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hardGameFragment"
+        android:name="com.example.ioasys_fase2.HardGameFragment"
+        android:label="fragment_hard_game"
+        tools:layout="@layout/fragment_hard_game" >
+        <action
+            android:id="@+id/action_hardGameFragment_to_selectLevelFragment"
+            app:destination="@id/selectLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/glossaryFragment"
+        android:name="com.example.ioasys_fase2.GlossaryFragment"
+        android:label="fragment_glossary"
+        tools:layout="@layout/fragment_glossary" />
+</navigation>

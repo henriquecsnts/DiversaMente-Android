@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectLevelFragment"
+    android:background="@drawable/background_main">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/easyLevelButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/f_cil"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mediumLevelButton"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mediumLevelButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/m_dio"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hardLevelButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/dif_cil"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_stroke"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mediumLevelButton"
+        android:textAllCaps="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

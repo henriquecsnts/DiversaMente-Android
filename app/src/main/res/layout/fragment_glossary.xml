@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GlossaryFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_main"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Glossário"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard1"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/agender"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard2"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/androgyne"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard3"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/deminonbinary"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard4"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/gender_neutral"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard5"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/genderfluid"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard6"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/genderqueer"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard7"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/intergender"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard8"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/kingender"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard9"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/neurogender"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard10"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/nonbinary"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard11"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/nonbinary_boy"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard12"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/nonbinary_girl"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard13"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/trans_man"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard14"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/trans_woman"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/glossaryText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Glossário                             Glossário"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/glossaryLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard15"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/transneutral"
+                android:clickable="true"
+                android:focusable="true"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/glossaryCard16"
+                android:layout_width="164dp"
+                android:layout_height="188dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/glossaryText9"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Glossário                             Glossário"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:id="@+id/glossaryLayout9"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2">-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard17"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard18"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/glossaryText10"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Glossário                             Glossário"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:id="@+id/glossaryLayout10"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2">-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard19"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard20"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/glossaryText11"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Glossário                             Glossário"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:id="@+id/glossaryLayout11"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2">-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard21"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard22"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/glossaryText12"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Glossário                             Glossário"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:id="@+id/glossaryLayout12"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2">-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard23"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/glossaryCard24"-->
+<!--                android:layout_width="164dp"-->
+<!--                android:layout_height="188dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/background_cards"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"/>-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/glossaryText13"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Glossário                             Glossário"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp" />-->
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
