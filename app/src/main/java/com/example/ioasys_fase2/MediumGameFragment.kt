@@ -48,7 +48,7 @@ class MediumGameFragment : Fragment() {
     private lateinit var line6column3Medium: AppCompatImageView
     private lateinit var line6column4Medium: AppCompatImageView
 
-    private var cardsArray = arrayOf(101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212)
+    private var cardsArray = arrayOf(206, 112, 106, 102, 209, 203, 202, 204, 201, 111, 110, 205, 108, 207, 211, 101, 105, 210, 107, 104, 208, 108, 103, 212)
 
     private var img101: Int = 0
     private var img102: Int = 0
@@ -584,31 +584,32 @@ class MediumGameFragment : Fragment() {
     }
 
     private fun frontOfCardsResources() {
-        img101 = R.drawable.img101
-        img102 = R.drawable.img103
-        img103 = R.drawable.img105
-        img104 = R.drawable.img201
-        img105 = R.drawable.img203
-        img106 = R.drawable.img205
-        img107 = R.drawable.img101
-        img108 = R.drawable.img103
-        img109 = R.drawable.img105
-        img110 = R.drawable.img201
-        img111 = R.drawable.img203
-        img112 = R.drawable.img205
+        img101 = R.drawable.intergender
+        img102 = R.drawable.kingender
+        img103 = R.drawable.neurogender
+        img104 = R.drawable.nonbinary
+        img105 = R.drawable.nonbinary_boy
+        img106 = R.drawable.nonbinary_girl
+        img107 = R.drawable.trans_man
+        img108 = R.drawable.trans_woman
+        img109 = R.drawable.transneutral
+        img110 = R.drawable.intergender
+        img111 = R.drawable.kingender
+        img112 = R.drawable.neurogender
 
-        img201 = R.drawable.img102
-        img202 = R.drawable.img104
-        img203 = R.drawable.img106
-        img204 = R.drawable.img202
-        img205 = R.drawable.img204
-        img206 = R.drawable.img206
-        img207 = R.drawable.img102
-        img208 = R.drawable.img104
-        img209 = R.drawable.img106
-        img210 = R.drawable.img202
-        img211 = R.drawable.img204
-        img212 = R.drawable.img206
+        img201 = R.drawable.intergender
+        img202 = R.drawable.kingender
+        img203 = R.drawable.neurogender
+        img204 = R.drawable.nonbinary
+        img205 = R.drawable.nonbinary_boy
+        img206 = R.drawable.nonbinary_girl
+        img207 = R.drawable.trans_man
+        img208 = R.drawable.trans_woman
+        img209 = R.drawable.transneutral
+        img210 = R.drawable.intergender
+        img211 = R.drawable.kingender
+        img212 = R.drawable.neurogender
+
     }
 
     private fun navigateToSelectLevel() {

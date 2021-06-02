@@ -75,7 +75,7 @@ class HardGameFragment : Fragment() {
     private lateinit var line8column5Hard: AppCompatImageView
     private lateinit var line8column6Hard: AppCompatImageView
 
-    private var cardsArray = arrayOf(101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224)
+    private var cardsArray = arrayOf(105, 208, 110, 124, 213, 104, 212, 205, 222, 114, 123, 207, 215, 216, 106, 202, 109, 204, 108, 220, 101, 217, 119, 118, 206, 107, 102, 111, 210, 223, 122, 120, 201, 224, 203, 221, 209, 121, 219, 117, 116, 113, 112, 103, 218, 214, 215, 211)
 
     private var img101: Int = 0
     private var img102: Int = 0
@@ -1033,55 +1033,56 @@ class HardGameFragment : Fragment() {
     }
 
     private fun frontOfCardsResources() {
-        img101 = R.drawable.img101
-        img102 = R.drawable.img103
-        img103 = R.drawable.img105
-        img104 = R.drawable.img201
-        img105 = R.drawable.img203
-        img106 = R.drawable.img205
-        img107 = R.drawable.img101
-        img108 = R.drawable.img103
-        img109 = R.drawable.img105
-        img110 = R.drawable.img201
-        img111 = R.drawable.img203
-        img112 = R.drawable.img205
-        img113 = R.drawable.img101
-        img114 = R.drawable.img103
-        img115 = R.drawable.img105
-        img116 = R.drawable.img201
-        img117 = R.drawable.img203
-        img118 = R.drawable.img205
-        img119 = R.drawable.img101
-        img120 = R.drawable.img103
-        img121 = R.drawable.img105
-        img122 = R.drawable.img201
-        img123 = R.drawable.img203
-        img124 = R.drawable.img205
+        img101 = R.drawable.agender
+        img102 = R.drawable.androgyne
+        img103 = R.drawable.deminonbinary
+        img104 = R.drawable.gender_neutral
+        img105 = R.drawable.genderfluid
+        img106 = R.drawable.genderqueer
+        img107 = R.drawable.intergender
+        img108 = R.drawable.kingender
+        img109 = R.drawable.neurogender
+        img110 = R.drawable.nonbinary
+        img111 = R.drawable.nonbinary_boy
+        img112 = R.drawable.nonbinary_girl
+        img113 = R.drawable.trans_man
+        img114 = R.drawable.trans_woman
+        img115 = R.drawable.transneutral
+        img116 = R.drawable.agender
+        img117 = R.drawable.androgyne
+        img118 = R.drawable.deminonbinary
+        img119 = R.drawable.gender_neutral
+        img120 = R.drawable.genderfluid
+        img121 = R.drawable.genderqueer
+        img122 = R.drawable.intergender
+        img123 = R.drawable.kingender
+        img124 = R.drawable.neurogender
 
-        img201 = R.drawable.img102
-        img202 = R.drawable.img104
-        img203 = R.drawable.img106
-        img204 = R.drawable.img202
-        img205 = R.drawable.img204
-        img206 = R.drawable.img206
-        img207 = R.drawable.img102
-        img208 = R.drawable.img104
-        img209 = R.drawable.img106
-        img210 = R.drawable.img202
-        img211 = R.drawable.img204
-        img212 = R.drawable.img206
-        img213 = R.drawable.img102
-        img214 = R.drawable.img104
-        img215 = R.drawable.img106
-        img216 = R.drawable.img202
-        img217 = R.drawable.img204
-        img218 = R.drawable.img206
-        img219 = R.drawable.img102
-        img220 = R.drawable.img104
-        img221 = R.drawable.img106
-        img222 = R.drawable.img202
-        img223 = R.drawable.img204
-        img224 = R.drawable.img206
+        img201 = R.drawable.agender
+        img202 = R.drawable.androgyne
+        img203 = R.drawable.deminonbinary
+        img204 = R.drawable.gender_neutral
+        img205 = R.drawable.genderfluid
+        img206 = R.drawable.genderqueer
+        img207 = R.drawable.intergender
+        img208 = R.drawable.kingender
+        img209 = R.drawable.neurogender
+        img210 = R.drawable.nonbinary
+        img211 = R.drawable.nonbinary_boy
+        img212 = R.drawable.nonbinary_girl
+        img213 = R.drawable.trans_man
+        img214 = R.drawable.trans_woman
+        img215 = R.drawable.transneutral
+        img216 = R.drawable.agender
+        img217 = R.drawable.androgyne
+        img218 = R.drawable.deminonbinary
+        img219 = R.drawable.gender_neutral
+        img220 = R.drawable.genderfluid
+        img221 = R.drawable.genderqueer
+        img222 = R.drawable.intergender
+        img223 = R.drawable.kingender
+        img224 = R.drawable.neurogender
+
     }
 
     private fun navigateToSelectLevel() {
