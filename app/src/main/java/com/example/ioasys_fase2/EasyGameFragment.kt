@@ -33,7 +33,7 @@ class EasyGameFragment : Fragment() {
 
     // ALEATORIZAR VALORES E DEPOIS INSERIR NO ARRAY PARA ALEATORIZAR AS CARTAS NO JOGO
     // ALEATORIZAR SEMPRE QUE INICIAR ESSA FRAGMENT
-    private var cardsArray = arrayOf(101, 102, 103, 104, 105, 106, 202, 201, 203, 204, 205, 206)
+    private var cardsArray = arrayOf(205, 203, 106, 103, 101, 105, 104, 202, 201, 102, 206, 204)
 
     private var img101: Int = 0
     private var img102: Int = 0
